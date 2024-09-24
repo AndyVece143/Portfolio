@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Lato;
+    src: url(font/Lato-Regular.ttf);
+  }
+  
+  html * {
+    font-family: Lato;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #89CFF0;
+  }
+  
+  li {
+    float: right;
+    border-right: 1px solid #002244;
+  }
+  
+  
+  li:first-child {
+    border-right: none;
+  }
+  
+  li:last-child {
+    border-left: 1px solid #002244;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  html {
+    background-color: #034694;
+  }
+
+  .introduction{
+    display: flex;
+    background-color: #B0C4DE;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+}
+
+.flex-container, .flex-container2, .flex-container3 {
+    display: flex;
+    margin-top: 20px;
+    background-color: #B0C4DE;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.flex-child, .flex-child2, .flex-child3 {
+    flex: 1;
+  }
+
+.flex-child img, .flex-child2 img, .flex-child3 img{
+    width: 400px;
+  }
+
+.flex-child, .flex-child2, .flex-child3{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+button{
+    background-color: #89CFF0;
+    width: 100px;
+    height: 50px;
+  }

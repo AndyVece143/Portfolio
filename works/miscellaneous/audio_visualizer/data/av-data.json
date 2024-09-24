@@ -1,0 +1,53 @@
+{
+
+    "title": "The Best Music Player, Period",
+
+    "song-info": {
+        "1": {
+            "fileName": "Lord of the Castle.mp3",
+            "songName": "Lord of the Castle",
+            "gameName": "Kingdom Hearts: Re:Chain of Memories",
+            "composerName": "Yoko Shimomura",
+            "context": "This is the final boss theme for Marluxia"
+        },
+        "2": {
+            "fileName": "Edge of Existence.mp3",
+            "songName": "Edge of Existence",
+            "gameName": "Kingdom Hearts III",
+            "composerName": "Yoko Shimomura",
+            "context": "This is the battle theme for the world Scala ad Caelum"
+        },
+        "3": {
+            "fileName": "Wrapped in Black.mp3",
+            "songName": "Wrapped in Black",
+            "gameName": "Sonic Rush",
+            "composerName": "Hideki Naganuma",
+            "context": "This is the final boss theme for Dr. Eggman and Dr. Eggman Nega"
+        },
+        "4": {
+            "fileName": "Doomsday Zone.mp3",
+            "songName": "Doomsday Zone",
+            "gameName": "Sonic 3 and Knuckles",
+            "composerName": "Brad Buxer",
+            "context": "This is the final boss theme for Dr. Eggman"
+        },
+        "5": {
+            "fileName": "Common Battle.mp3",
+            "songName": "Common Battle",
+            "gameName": "Shin Megami Tensei III: Nocturne",
+            "composerName": "Shoji Meguro" ,
+            "context": "This is the standard battle theme"
+        },
+        "6": {
+            "fileName": "Battle - c4.mp3",
+            "songName": "Battle - c4",
+            "gameName": "Shin Megami Tensei IV",
+            "composerName": "Ryota Kozuka",
+            "context": "This is the battle theme against 'Fiend' demons"
+        }
+
+    },
+
+    "Default Bar Number": 64
+        
+}
