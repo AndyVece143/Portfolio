@@ -9,6 +9,8 @@
 
   main {
     margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
   
   html, body {
@@ -67,27 +69,33 @@
     align-items: center;
     text-align: center;
     font-size: 20px;
-    height: 150px;
+    /* height: 150px; */
+    border-radius: 10px;
 }
 
-.flex-container, .flex-container2, .flex-container3 {
+.flex-container {
     display: flex;
     margin-top: 20px;
     background-color: #B0C4DE;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    border-radius: 10px;
+    /* height: 400px; */
 }
 
-.flex-child, .flex-child2, .flex-child3 {
+.flex-container p{
+  margin: 20px;
+}
+
+.flex-child {
     flex: 1;
   }
 
-.flex-child img, .flex-child2 img, .flex-child3 img{
+.flex-child img {
     width: 400px;
   }
 
-.flex-child, .flex-child2, .flex-child3{
+.flex-child{
     font-size: 1.5vw;
     text-align: center;
 }
@@ -102,6 +110,7 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 10%;
+  margin-bottom: 20px;
 }
 
 button span {

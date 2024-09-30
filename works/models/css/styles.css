@@ -9,6 +9,8 @@
 
   main {
     margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
   
   html, body {
@@ -68,6 +70,11 @@
       text-align: center;
       font-size: 20px;
       height: 150px;
+      border-radius: 10px;
+  }
+
+  .introduction p {
+    margin: 20px;
   }
 
   #models, #models2, #models3 {
@@ -85,14 +92,13 @@
 }
 
   .bigmodelsection{
-    width: 48vw;
-  
+    width: 42em;
     background-color: #B0C4DE;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    border-radius: 10px;
 }
 
 .bigmodelsection p {
@@ -114,12 +120,13 @@
   }
 
   .modelsection{
-    width: 30vw;
+    width: 26em;
     /* height: 25vw; */
     background-color: #B0C4DE;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
 
 .modelsection p {
