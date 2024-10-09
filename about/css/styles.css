@@ -53,3 +53,104 @@ html, body {
   .navbar-right {
     float: right;
   }
+
+  html {
+    background-color: #034694;
+  }
+
+  .wip {
+    text-align: center;
+    background-color: orangered;
+    width: 30vw;
+    margin: auto;
+  }
+
+  .introduction h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .education {
+    background-color: #B0C4DE;
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  /* .educationimages {
+    display: flex;
+  } */
+
+  #diplomaimage{
+    width: 30vw;
+  }
+
+  .skills {
+    background-color: red;
+    /* width: 75vw; */
+    margin: auto;
+  }
+
+  .skills h1 {
+    text-align: center;
+  }
+
+  .skillssection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around
+    
+  }
+  .skillsblock {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 15vw;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .experience {
+    /* background-color: orange; */
+    /* width: vw; */
+    margin: auto;
+    background-image: url('../media/background.jfif');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+  }
+  .experience h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .experiencesection {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin: auto;
+    justify-content: space-around
+  }
+
+  .experienceblock{
+    background-color: white;
+    width: 20vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  #experienceimage {
+    width: 20vw;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  /* .experienceblock h2 {
+    text-align: center;
+  } */
