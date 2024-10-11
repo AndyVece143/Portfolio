@@ -59,6 +59,12 @@
     background-color: #034694;
   }
 
+main {
+  margin-top: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
   .introduction{
     display: flex;
     background-color: #B0C4DE;

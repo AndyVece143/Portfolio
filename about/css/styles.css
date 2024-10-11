@@ -87,6 +87,7 @@ html, body {
     width: 40vw;
     border-radius: 20px;
     border: 2px solid black;
+    box-shadow: 10px 10px 10px;
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -132,12 +133,14 @@ html, body {
     width: 15vw;
     padding-left: 1%;
     padding-right: 1%;
+    box-shadow: 10px 10px 10px;
   }
 
   .experience {
     /* background-color: orange; */
     /* width: vw; */
     margin: auto;
+    padding-bottom: 50px;
     /* background-image: url('../media/background.jfif');
     background-repeat: no-repeat;
 
@@ -165,6 +168,7 @@ html, body {
     text-align: center;
     border-radius: 20px;
     border: 2px solid black;
+    box-shadow: 10px 10px 10px;
   }
 
   #experienceimage {

@@ -71,6 +71,7 @@
       font-size: 20px;
       height: 150px;
       border-radius: 10px;
+      border: 2px solid black;
   }
 
   .introduction p {
@@ -89,6 +90,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 25px;
+
 }
 
   .bigmodelsection{
@@ -99,6 +101,8 @@
     align-items: center;
     text-align: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px;
 }
 
 .bigmodelsection p {
@@ -127,6 +131,8 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px;
 }
 
 .modelsection p {

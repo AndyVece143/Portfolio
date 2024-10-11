@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: Lato;
-    src: url(font/Lato-Regular.ttf);
-  }
+    src: url(../../../css/font/Lato-Regular.ttf);
+  } */
   
   html * {
     font-family: Lato;
@@ -71,6 +71,7 @@
     font-size: 20px;
     /* height: 150px; */
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .flex-container {
@@ -80,6 +81,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    border: 2px solid black;
     /* height: 400px; */
 }
 

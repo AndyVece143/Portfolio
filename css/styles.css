@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: Lato;
   src: url(font/Lato-Regular.ttf);
-}
+} */
 
 html * {
   font-family: Lato;
@@ -88,10 +88,11 @@ h1{
   height: 50px;
 } */
 
-img {
+#mypicture {
   width: 30vw;
   height: 30vw;
   border-radius: 50%;
+  box-shadow: 10px 10px 10px;
 }
 
 #sans {
@@ -114,6 +115,7 @@ img {
 #sociallinks img{
   width: 5em;
   height: 5em;
+  border-radius: 50%;
   /* color: black;
   filter: brightness(0%) */
   

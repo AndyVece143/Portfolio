@@ -71,6 +71,7 @@ html, body {
     font-size: 20px;
     /* height: 150px; */
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .flex-container{
@@ -81,6 +82,7 @@ html, body {
     align-items: center;
     height: 400px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .flex-child{
