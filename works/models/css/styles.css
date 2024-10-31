@@ -144,6 +144,34 @@
       width: 13vw;
       height: 13vw;
   }
-  .modelsection img{
+  .modelsection img, .changelingwork img{
     width: 25vw;
+}
+
+#changeling {
+  margin-top: 25px;
+}
+
+.changelingwork {
+  /* width: 86.5em; */
+  /* height: 25vw; */
+  background-color: #B0C4DE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px;
+}
+
+.changelingworksection {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.worksection {
+  width: 26em;
+  /* margin: auto; */
 }
