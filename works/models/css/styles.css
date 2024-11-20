@@ -144,15 +144,15 @@
       width: 13vw;
       height: 13vw;
   }
-  .modelsection img, .changelingwork img{
+  .modelsection img, .projectwork img{
     width: 25vw;
 }
 
-#changeling {
+#project {
   margin-top: 25px;
 }
 
-.changelingwork {
+.projectwork {
   /* width: 86.5em; */
   /* height: 25vw; */
   background-color: #B0C4DE;
@@ -165,7 +165,7 @@
   box-shadow: 10px 10px 10px;
 }
 
-.changelingworksection {
+.projectworksection {
   display: flex;
   /* text-align: center; */
   flex-direction: row;
