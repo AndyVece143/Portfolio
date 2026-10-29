@@ -74,7 +74,7 @@
     border: 2px solid black;
 }
 
-.flex-container {
+.flex-container1, .flex-container2, .flex-container, .flex-container3, .flex-container4, .flex-container5, .flex-container6, .flex-container7 {
     display: flex;
     margin-top: 20px;
     background-color: #B0C4DE;
@@ -82,11 +82,47 @@
     align-items: center;
     border-radius: 10px;
     border: 2px solid black;
+    box-shadow: 10px 10px 10px;
     /* height: 400px; */
 }
 
-.flex-container p{
+.flex-container p, .flex-container1 p, .flex-container2 p, .flex-container3 p, .flex-container4 p, .flex-container5 p, .flex-container6 p, .flex-container7 p{
   margin: 20px;
+}
+
+/* Pirates */
+.flex-container1 {
+  background-image: linear-gradient(to top, #fbd786, #f7797d);
+}
+
+/* Damnation */
+.flex-container2 {
+  background-image: linear-gradient(to top, #ad5389, #8F43DB);
+}
+
+/* Connections */
+.flex-container3 {
+    background-image: linear-gradient(to top, #f4c4f3, #fc67fa);
+}
+
+/* Dream */
+.flex-container4 {
+    background-image: linear-gradient(to top, #acf7f0, #f0acf7);
+}
+
+/* Alleyway */
+.flex-container5 {
+    background-image: linear-gradient(to top, #B5B9FF, #2B2C49);
+}
+
+/* Boom */
+.flex-container6 {
+    background-image: linear-gradient(to top, #EF3B36, #FFFFFF);
+}
+
+/* Seriousness */
+.flex-container7 {
+    background-image: linear-gradient(to top, #E4E4E4, #B5B5B5);
 }
 
 .flex-child {
@@ -95,11 +131,24 @@
 
 .flex-child img {
     width: 400px;
+    border: 2px solid black;
+        box-shadow: 2px 2px 2px;
   }
 
 .flex-child{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
+}
+
+.game img {
+  height: 180px;
+  width: auto;
+  border: 2px solid black;
+}
+
+.flex-child {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
